@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 80%;
+    margin: auto;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.container h1,
+p {
+    text-align: center;
+}
+
+input {
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    outline: none;
+    width: 80%;
+    padding: 15px;
+    margin: 10px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.btn {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 8px 12px;
+    margin: 5px;
+    font-size: 20px;
+    border: 2px solid rgb(138, 138, 138);
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+#myVideo {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.msg {
+    color: green;
+    font-size: 50px;
+    text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(235, 181, 181), 1px 1px 0 rgb(255, 255, 255);
+}
