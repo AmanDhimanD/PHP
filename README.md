@@ -7,4 +7,4 @@ of popular databases, including MySQL, PostgreSQL, Oracle, Sybase, Informix, and
 ```
 - official site :- https://www.php.net
 - Documentations 🦖 :- https://www.php.net/manual/en/
-<img align="right" alt="GIF" src="https://media.giphy.com/media/B5BP3OYgVN5ss/giphy.gif" />
+<img align="right" alt="GIF" width="200" height= "100" src="https://media.giphy.com/media/B5BP3OYgVN5ss/giphy.gif" />
