@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    background-image:radial-gradient(rgb(255, 129, 129),purple,black);
+}
+.logo img
+{
+    height: 100px;
+    padding: 10px;
+    width: 100px;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+input,button,textarea{
+    border: none;
+    outline: none;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    height: 40px;
+    line-height: 43px;
+    margin: 3px;
+    padding: 0 22px;
+    display: flex;
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 2px;
+    border-radius: 3px;
+    transition-timing-function: 0.5s ease-in-out;
+    color: rgb(0, 0, 0);
+}
+nav ul li a:hover{
+    background-color: rgb(59, 216, 54);
+    color: white;
+    box-shadow: 5px 10px 30px brown;
+}
+
+.active{
+    background-color: rgb(154, 255, 148);
+    color: rgb(0, 0, 0);
+    box-shadow: 5px 10px 30px brown;
+}
+
+
+.main{
+    width: 100%;
+    height: 800px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/bg.jpg);
+}
+
+
+/* header */
+.header{
+    width: 500px;
+    position: absolute;
+    left: 15%;
+    top: 60%;
+    transform: translate(-15%,-45%);
+}
+.header h1{
+    font-size: 45px;
+    margin: 0px;
+    letter-spacing: 3px;
+    color: rgb(226, 8, 255);
+}
+.header p{
+    color: rgb(255, 255, 255);
+}
+.btn{
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rebeccapurple;
+    color: white;
+    border-radius: 10px;
+    transition: 0.6s ease-in-out;
+}
+
+.btn:hover{
+    box-shadow: 5px 10px 30px rgb(228, 205, 241);
+}
+
+
+/* Features */
+.features{
+    width: 100%;
+    height: 90vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 100px;
+}
+
+.feature-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-box{
+    background-color: white;
+    width: 300px;
+    height: 350px;
+    margin: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 5px 10px 30px rgb(0, 0, 0);
+}
+
+.f-img img
+{
+    height: 100%;
+    width: 100%;
+}
+
+.f-text{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.f-text h4{
+    margin-top: -12px;
+}
+
+/* ABOUT */
+.about
+{
+    width: 100%;
+    height: 110vh;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 5% 0px 5%;
+    position: relative;
+}
+
+.about-img{
+    width: 50%;
+}
+.about-img img{
+    width: 500px;
+}
+.about-text{
+    width: 45%;
+    color: rgb(255, 255, 255);
+    text-align: right;
+}
+
+.about-text h2{
+    font-size: 2.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.about-text p{
+    font-size:1.1rem;
+    color: rgb(255, 255, 255);
+}
+
+/* Contact */
+
+.contact{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0px;
+}
+
+.contact-heading{
+    text-align: center;
+    margin: 40px 0px;
+    margin-bottom: 80px;
+
+}
+.contact-heading h1{
+    font-size: 2.2rem;
+}
+
+.contact form{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact form input,.contact form textarea{
+    width: 100%;
+    height: 40px;
+    margin: 5px 0px ;
+    padding: 10px;
+    background-color:rgb(223, 223, 223);
+    color: white;
+}
+
+
+.contact form textarea{
+    height: 150px;
+}
