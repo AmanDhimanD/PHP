@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+</head>
+<style>
+    *{
+        padding: 0;margin: 0;
+        background-color: grey;
+    }
+    .container img
+    {
+        /* display: contents;
+        justify-items: center; */
+        padding: 40px;
+        margin-left: 20%;
+        
+    }
+</style>
+<body>
+    <script>
+        var i=0;
+        var image=[]
+        var time=1000;
+
+        image[0]='1.jpg'
+        image[1]='2.jpg'
+        image[2]='3.jpg'
+        image[3]='4.jpg'
+        image[4]='5.jpg'
+        image[5]='6.jpg'
+        image[6]='7.jpg'
+        image[7]='8.jpg'
+        image[8]='9.jpg'
+        image[9]='10.jpg'
+
+        function change(){
+            document.slide.src=image[i];
+
+            if(i<image.length-1){
+                i++;
+            }
+            else{
+                i==0;
+             }
+            setTimeout("change()",time);
+        }
+        window.onload=change;
+    </script>
+    <div class="container">
+        <!-- <img src="1.jpg" alt="">
+        <img src="2.jpg" alt="">
+        <img src="3.jpg" alt=""> -->
+        <img name="slide" alt="" width="750" height="500">
+    </div>
+</body>
+</html>
