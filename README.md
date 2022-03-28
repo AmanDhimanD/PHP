@@ -14,6 +14,5 @@ of popular databases, including MySQL, PostgreSQL, Oracle, Sybase, Informix, and
 <br/>
 
 <br/>
+![server-vs-client](https://user-images.githubusercontent.com/72404186/160459430-6bcf3c7a-0b07-455c-9d32-5501632c43ad.jpg)
 
-<br/>
--- Check
